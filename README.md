@@ -1,5 +1,5 @@
 # CSV-Report-Processing
-## Check Python Intern Task - `Python Intern Task - CSV Report Processing.md` for task description
+## Check Python Intern Task - `Task description.md` for task description
 
 Loads csv file and process the data using pandas and pycountry modules. At the end it creates new csv file with processed data.
 
