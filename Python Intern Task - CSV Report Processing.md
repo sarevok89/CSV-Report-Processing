@@ -29,21 +29,27 @@ If the input file has errors, appropriate error messages should be written to th
 (stderr). An output CSV should be produced if the errors are not critical (if it’s not clear which
 ones are critical, the solution should include an explanation of your reasoning).
 
-##Tips:
+## Tips:
 ● UTF-16 has a byte order mark, otherwise it would be ambiguous. Just like UTF-8, it
 has a variable width, but this detail shouldn’t be noticeable in the solution.
+
 ● While a single date represents different times in different regions, here they are all
 UTC.
+
 ● Region names and codes used are provided by https://pypi.org/project/pycountry/
+
 ● We use Python 3.7; you can use external libraries available on PyPI (like pycountry)
 if you submit a requirements.txt listing them with versions (these are output by pip
 freeze ). If a different Python version is needed, please provide a Dockerfile setting
 up a proper environment for running the script.
+
 ● CSV isn’t standard and has many dialects, but here we can assume that all fields
 have no quoting, no commas and are separated literally by commas.
 What we’d like to see:
+
 ● Readable code (consider comments and docstrings that would help understand and
 maintain it)
+
 ● Error handling
 
 ## Example input:
