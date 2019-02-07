@@ -16,9 +16,11 @@ Your task is to write a Python script that reads a CSV file of such third-party 
 standard input, the script should output a CSV file with a report aggregated by date and
 country.
 
-### Input format: UTF-8 or UTF-16 CSV file (with any kind of line endings), with columns: date
+## Input format:
+UTF-8 or UTF-16 CSV file (with any kind of line endings), with columns: date
 (MM/DD/YYYY), state name, number of impressions and CTR percentage.
-### Output format: UTF-8 CSV file with Unix line endings, with columns: date (YYYY-MM-DD),
+### Output format:
+UTF-8 CSV file with Unix line endings, with columns: date (YYYY-MM-DD),
 three letter country code (or XXX for unknown states), number of impressions, number of
 clicks (rounded, assuming the CTR is exact). Rows are sorted lexicographically by date
 followed by the country code.
