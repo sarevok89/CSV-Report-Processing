@@ -46,7 +46,8 @@ What we’d like to see:
 maintain it)
 ● Error handling
 
-##Example input:
+## Example input:
+```
 01/21/2019,Mandiana,883,0.38%
 01/21/2019,Lola,76,0.78%
 01/21/2019,Fāryāb,919,0.67%
@@ -59,8 +60,10 @@ maintain it)
 01/24/2019,Beroun,620,0.1%
 01/24/2019,Unknown,586,0.86%
 01/24/2019,🐱,1082,0.68%
+```
 
 ## Example output:
+```
 2019-01-21,AFG,919,6
 2019-01-21,GIN,959,4
 2019-01-22,CZE,139,1
@@ -69,5 +72,5 @@ maintain it)
 2019-01-23,XXX,777,2
 2019-01-24,CZE,620,1
 2019-01-24,XXX,1668,12
-
+```
 ## Good luck!
