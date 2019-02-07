@@ -25,6 +25,7 @@ three letter country code (or XXX for unknown states), number of impressions, nu
 clicks (rounded, assuming the CTR is exact). Rows are sorted lexicographically by date
 followed by the country code.
 
+
 If the input file has errors, appropriate error messages should be written to the standard error
 (stderr). An output CSV should be produced if the errors are not critical (if it’s not clear which
 ones are critical, the solution should include an explanation of your reasoning).
