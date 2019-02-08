@@ -23,6 +23,6 @@ import sys
 ```
 generate_csv('your_file.csv')
 ```
-Running this will generate You new csv file with name of `output - your_file.csv`
+Running this will generate You new csv file with name of `output - your_file.csv` with your processed data.
 
 ### Thanks!
