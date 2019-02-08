@@ -13,13 +13,16 @@ Pycountry:
 ```
 pip install pycountry
 ```
-### Installation
+### Getting started
 ```
 import pandas as pd
 import pycountry
 import sys
 ```
-### Getting started
+### Running script
 ```
 generate_csv('your_file.csv')
 ```
+Running this will generate You new csv file with name of `output - your_file.csv`
+
+### Thanks!
